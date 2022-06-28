@@ -1,5 +1,5 @@
 .footer {
-  background-color: #fe019a;
+  background-color: rgb(254, 1, 154);
 }
 
 * {
@@ -61,5 +61,37 @@ nav:visited {
 }
 
 .socialMedia {
-  font-size: large;
+  font-size: x-large;
+}
+.socialMedia div a {
+  color: #fe019a;
+}
+.socialMedia div span {
+  color: black;
+}
+
+.banner {
+  background-image: url(../img/bannerPagina.jpg);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  color: white;
+  text-shadow: 3px 3px 20px rgba(254, 1, 154, 0.2);
+}
+.banner h2 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  color: rgb(254, 1, 154);
+}
+a:hover {
+  color: rgb(254, 1, 154);
 }/*# sourceMappingURL=stylesheet.css.map */

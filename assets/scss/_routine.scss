@@ -1,0 +1,26 @@
+.banner {
+    background-image: url(../img/bannerPagina.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    h1 {
+        color: white;
+        text-shadow: 3px 3px 20px rgba(254, 1, 154, 0.2);
+    }
+
+    h2 {
+        color: white;
+    }
+}
+    a{
+        text-decoration: none;
+        color: black;
+        &:active{
+            color: rgb(254, 1, 154);
+        }
+        &:hover{
+            color: rgb(254, 1, 154);
+        }
+    }

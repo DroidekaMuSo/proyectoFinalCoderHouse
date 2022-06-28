@@ -2,6 +2,17 @@
     background-color: #fe019a;
     color: white;
 }
-.socialMedia{
-    font-size: large;
+
+.socialMedia {
+    font-size: x-large;
+
+    div {
+        a {
+            color: #fe019a;
+        }
+
+        span {
+            color: black;
+        }
+    }
 }
