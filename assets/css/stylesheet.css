@@ -97,6 +97,10 @@ a:hover {
   color: rgb(254, 1, 154);
 }
 
+.fq h3 {
+  text-align: center;
+}
+
 .hr {
   border: 1px solid;
   color: rgb(254, 1, 154);

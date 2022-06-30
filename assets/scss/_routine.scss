@@ -14,13 +14,22 @@
         color: white;
     }
 }
-    a{
-        text-decoration: none;
-        color: black;
-        &:active{
-            color: rgb(254, 1, 154);
-        }
-        &:hover{
-            color: rgb(254, 1, 154);
-        }
+
+a {
+    text-decoration: none;
+    color: black;
+
+    &:active {
+        color: rgb(254, 1, 154);
     }
+
+    &:hover {
+        color: rgb(254, 1, 154);
+    }
+}
+
+.fq{
+    h3{
+        text-align: center;
+    }
+}
