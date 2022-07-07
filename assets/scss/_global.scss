@@ -6,25 +6,24 @@
     box-sizing: border-box;
 }
 
-nav {
+$brand:(
+    font:'Splash',
+    size: calc(1.325rem + 2vw),
+    color: #fe019a,
+    shadow: 1px 1px 4px #C2CE06,
+);
 
-    .brand {
-        font-family: 'Splash', cursive;
-        font-size: calc(1.325rem + 2vw);
-        color: #fe019a;
-        text-shadow: 1px 1px 4px #C2CE06;
+nav {
+    .brand{
+        font-family: map-get($brand, font);
+        font-size: map-get($brand, size );
+        color: map-get($brand,color );
+        text-shadow: map-get($brand, shadow );
     }
 
     #navbarNavDropdown {
         margin-left: 50px;
         font-size: calc(1.325rem + 1.1vw);
-
-        .navbar-nav {
-
-            .active {
-                color: #fe019a;
-            }
-        }
 
     }
 }

@@ -6,12 +6,18 @@
     background-position: center;
 
     h1 {
-        color: white;
-        text-shadow: 3px 3px 20px rgba(254, 1, 154, 0.2);
+        font-family: map-get($brand, font);
+        font-size: map-get($brand, size );
+        color: black;
+        text-shadow: map-get($brand, shadow );
     }
 
     h2 {
         color: white;
+        font-family: map-get($brand, font);
+        font-size: map-get($brand, size );
+        color: black;
+        text-shadow: map-get($brand, shadow );
     }
 }
 

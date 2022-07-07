@@ -6,7 +6,7 @@
 }
 
 nav .brand {
-  font-family: "Splash", cursive;
+  font-family: "Splash";
   font-size: calc(1.325rem + 2vw);
   color: #fe019a;
   text-shadow: 1px 1px 4px #C2CE06;
@@ -14,9 +14,6 @@ nav .brand {
 nav #navbarNavDropdown {
   margin-left: 50px;
   font-size: calc(1.325rem + 1.1vw);
-}
-nav #navbarNavDropdown .navbar-nav .active {
-  color: #fe019a;
 }
 
 .title {
@@ -98,11 +95,17 @@ nav:visited {
   background-position: center;
 }
 .banner h1 {
-  color: white;
-  text-shadow: 3px 3px 20px rgba(254, 1, 154, 0.2);
+  font-family: "Splash";
+  font-size: calc(1.325rem + 2vw);
+  color: black;
+  text-shadow: 1px 1px 4px #C2CE06;
 }
 .banner h2 {
   color: white;
+  font-family: "Splash";
+  font-size: calc(1.325rem + 2vw);
+  color: black;
+  text-shadow: 1px 1px 4px #C2CE06;
 }
 
 a {
