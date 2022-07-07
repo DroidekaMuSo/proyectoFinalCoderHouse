@@ -96,7 +96,6 @@ nav:visited {
 }
 .banner h1 {
   font-family: "Splash";
-  font-size: calc(1.325rem + 2vw);
   color: black;
   text-shadow: 1px 1px 4px #C2CE06;
 }

@@ -5,6 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+@mixin sizes ($size) {
+    font-size: $size;
+}
 
 $brand:(
     font:'Splash',
@@ -12,6 +15,7 @@ $brand:(
     color: #fe019a,
     shadow: 1px 1px 4px #C2CE06,
 );
+
 
 nav {
     .brand{
