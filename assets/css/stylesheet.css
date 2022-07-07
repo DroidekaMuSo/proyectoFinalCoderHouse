@@ -1,11 +1,27 @@
-.footer {
-  background-color: rgb(254, 1, 154);
-}
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+.title {
+  background-color: #fe019a;
+  color: white;
+}
+.title:hover {
+  background-color: #e30088;
+}
+
+.subtitle {
+  background-color: #000000;
+  color: white;
+}
+.subtitle:hover {
+  background-color: #292929;
+}
+
+.footer {
+  background-color: rgb(254, 1, 154);
 }
 
 nav {
@@ -41,18 +57,6 @@ nav:visited {
 
 .main a {
   text-decoration: none;
-  color: white;
-}
-.main a .title {
-  background-color: #fe019a;
-  color: white;
-}
-.main a .title:hover {
-  background-color: #e30088;
-}
-
-.subtitle {
-  background-color: #589f14;
   color: white;
 }
 

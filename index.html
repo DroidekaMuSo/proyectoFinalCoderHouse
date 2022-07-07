@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Metadata -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+
     <!-- Bootstrap CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -21,9 +27,14 @@
     />
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- animate.style -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
     <link rel="stylesheet" href="assets/css/stylesheet.css" />
 
-    <title>Document</title>
+    <title>Unleash the beast</title>
   </head>
   <body>
 
@@ -32,33 +43,33 @@
     data-aos-offset="300"
     data-aos-easing="ease-in-sine"
     class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand me-2" href="#"> Navbar <img src="assets/img/rocky.svg" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse ms-lg-5 ps-lg-5 text-center " id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/routine.html">Routines</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/diets.html">Diets</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/accessories.html">Accessories</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="pages/contact.html">Contact</a>
-              </li>
-              </li>
-            </ul>
-          </div>
+      <div class="container-fluid">
+        <a class="navbar-brand me-5" href="index.html"> Unleash the beast <img src="assets/img/wolf-svgrepo-com.svg" alt="" class="w-25"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-lg-5 ps-lg-5 text-center " id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/routine.html">Routines</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/diets.html">Diets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/accessories.html">Accessories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/contact.html">Contact</a>
+            </li>
+            </li>
+          </ul>
         </div>
-      </nav>
+      </div>
+    </nav>
 
     <header>
       <div
@@ -147,315 +158,322 @@
     </header>
 
     <main>
-      <div class="container-fluid mt-3">
-        <div class="container-fluid text-center m-3 p-3 main">
-         <a href="#"><h2 class="title"><i class="fa-solid fa-check"></i> Best Sell</h2></a>
-         <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center mt-5">
-
+      <section class="container-fluid mt-3">
+        <!-- Best Sell Section -->
+        <div class="container-fluid text-center">
+          <a href="#"><i class="fa-solid fa-check"></i><h2 class="title">Best Sell</h2></a>
+          <!-- Protein carousel -->
+          <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center mt-5 animate__animated animate__shakeX">
             <div id="carouselProteina" class="carousel slide col-12 col-md-6 col-lg-3 mb-5 " data-bs-ride="carousel">
-                <a href="#"><h3 class="subtitle">Protein</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Protein1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Proteina2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Proteina3"></a>
-                  </div>
+              <a href="#"><h3 class="subtitle">Protein</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Protein1"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselProteina" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselProteina" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-            
-
-              <div id="carouselBcaa" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href="#"><h3 class="subtitle">BCAAs</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="BCAA1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="BCAA1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="BCAA1"></a>
-                  </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Proteina2"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselBcaa" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselBcaa" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-
-
-              <div id="carouslePreWorkout" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-               <a href=""> <h3 class="subtitle">Pre-Workouts</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="PreWorkout1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="PreWorkout2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="PreWorkout3"></a>
-                  </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Proteina3"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouslePreWorkout" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouslePreWorkout" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselProteina" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselProteina" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
 
-              <div id="carouselCreatina" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href=""> <h3 class="subtitle">Creatine</h3></a>
-                 <div class="carousel-inner">
-                   <div class="carousel-item active">
-                     <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Creatina1"></a>
-                   </div>
-                   <div class="carousel-item">
-                     <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Creatina2"></a>
-                   </div>
-                   <div class="carousel-item">
-                     <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Creatina3"></a>
-                   </div>
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselCreatina" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </button>
-                 <button class="carousel-control-next" type="button" data-bs-target="#carouselCreatina" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </button>
-               </div>
-         </div>
+          <!--BCAAs Carousel  -->
+          <div id="carouselBcaa" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+            <a href="#"><h3 class="subtitle">BCAAs</h3></a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="BCAA1"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="BCAA2"></a>
+              </div>
+              <div class="carousel-item">
+              <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="BCAA3"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBcaa" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBcaa" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Pre-WorkOuts Carousel -->
+          <div id="carouslePreWorkout" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+            <a href=""> <h3 class="subtitle">Pre-Workouts</h3></a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="PreWorkout1"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="PreWorkout2"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="PreWorkout3"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouslePreWorkout" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouslePreWorkout" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <!-- Creatine Carousel -->
+
+          <div id="carouselCreatina" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+            <a href=""> <h3 class="subtitle">Creatine</h3></a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Creatina1"></a>
+              </div>
+              <div class="carousel-item">
+                <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Creatina2"></a>
+              </div>
+              <div class="carousel-item">
+                <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Creatina3"></a>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCreatina" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCreatina" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          </div>
+        </div>
+
+        <!-- WorkOut Routines Section-->
          
-        <div class="container-fluid text-center m-3 p-3">
-        <a href="#"><h2 class="title"><i class="fa-solid fa-dumbbell"></i> Workout Routines</h2></a>
-        <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center mt-5">
+        <div class="container-fluid text-center">
+          <a href="#"><h2 class="title"><i class="fa-solid fa-dumbbell"></i> Workout Routines</h2></a>
+          <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center mt-5 animate__animated animate__shakeX">
 
+            <!-- Muscle Carousel -->
             <div id="carouselMuscle" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href="#"><h3 class="subtitle">Muscle</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Muscle1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Muscle2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Muscle3"></a>
-                  </div>
+              <a href="#"><h3 class="subtitle">Muscle</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Muscle1"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselMuscle" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselMuscle" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-            
-
-              <div id="carouselFatLoss" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href="#"><h3 class="subtitle">Fat Loss</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FatLoss1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FatLoss2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FatLoss3"></a>
-                  </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Muscle2"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselFatLoss" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselFatLoss" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-
-
-              <div id="carouselIncreaseStrength" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-               <a href=""> <h3 class="subtitle">Pre-Workouts</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="IncreaseStrength1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="IncreaseStrength2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="IncreaseStrength3"></a>
-                  </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Muscle3"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIncreaseStrength" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselIncreaseStrength" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselMuscle" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselMuscle" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
 
-              <div id="carouselFullBody" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href=""> <h3 class="subtitle">Pre-Workouts</h3></a>
-                 <div class="carousel-inner">
-                   <div class="carousel-item active">
-                     <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FullBody1"></a>
-                   </div>
-                   <div class="carousel-item">
-                     <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FullBody2"></a>
-                   </div>
-                   <div class="carousel-item">
-                     <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FullBody3"></a>
-                   </div>
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselFullBody" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </button>
-                 <button class="carousel-control-next" type="button" data-bs-target="#carouselFullBody" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </button>
-               </div>
-         </div>
+            <!-- Fat Loss Carousel -->
+            <div id="carouselFatLoss" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+              <a href="#"><h3 class="subtitle">Fat Loss</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FatLoss1"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FatLoss2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FatLoss3"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselFatLoss" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselFatLoss" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- Pre-Workouts Carousel -->
+            <div id="carouselIncreaseStrength" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+              <a href=""> <h3 class="subtitle">Pre-Workouts</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="IncreaseStrength1"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="IncreaseStrength2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="IncreaseStrength3"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselIncreaseStrength" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselIncreaseStrength" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- PreWorkout Carousel -->
+            <div id="carouselFullBody" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+              <a href=""> <h3 class="subtitle">Pre-Workouts</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FullBody1"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FullBody2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="FullBody3"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselFullBody" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselFullBody" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="container-fluid text-center m-3 p-3">
-        <a href="#"><h2 class="title"><i class="fa-solid fa-bowl-food"></i> Best Diets</h2></a>
-        <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center mt-5">
 
+        <!-- Best Diets Section -->
+        <div class="container-fluid text-center">
+          <a href="#"><h2 class="title"><i class="fa-solid fa-bowl-food"></i> Best Diets</h2></a>
+          <div class="container-fluid d-flex flex-wrap align-items-center justify-content-center mt-5 animate__animated animate__shakeX">
+
+            <!-- Anything Carousel -->
             <div id="carouselAnything" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href="#"><h3 class="subtitle">Anything</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Anything1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Anything2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Anything3"></a>
-                  </div>
+              <a href="#"><h3 class="subtitle">Anything</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Anything1"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnything" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselAnything" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-            
-
-              <div id="carouselVegetarian" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href="#"><h3 class="subtitle">Vegetarian</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegetarian1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegetarian2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegetarian3"></a>
-                  </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Anything2"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVegetarian" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselVegetarian" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-
-
-
-              <div id="carouselVegan" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-               <a href=""> <h3 class="subtitle">Vegan</h3></a>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegan1"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegan2"></a>
-                  </div>
-                  <div class="carousel-item">
-                    <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegan3"></a>
-                  </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenProteina.jpg" class="d-block w-50 mx-auto" alt="Anything3"></a>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselVegan" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselVegan" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnything" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselAnything" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
 
-              <div id="carouselKetogenic" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
-                <a href=""> <h3 class="subtitle">Ketogenic</h3></a>
-                 <div class="carousel-inner">
-                   <div class="carousel-item active">
-                     <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="carouselKetogenic1"></a>
-                   </div>
-                   <div class="carousel-item">
-                     <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="carouselKetogenic2"></a>
-                   </div>
-                   <div class="carousel-item">
-                     <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="carouselKetogenic3"></a>
-                   </div>
-                 </div>
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselKetogenic" data-bs-slide="prev">
-                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Previous</span>
-                 </button>
-                 <button class="carousel-control-next" type="button" data-bs-target="#carouselKetogenic" data-bs-slide="next">
-                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                   <span class="visually-hidden">Next</span>
-                 </button>
-               </div>
-         </div>
+            <!-- Vegetarian Carousel -->
+            <div id="carouselVegetarian" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+              <a href="#"><h3 class="subtitle">Vegetarian</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegetarian1"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegetarian2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegetarian3"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselVegetarian" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselVegetarian" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- Vegan Carousel -->
+            <div id="carouselVegan" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+              <a href=""> <h3 class="subtitle">Vegan</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegan1"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegan2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="Vegan3"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselVegan" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselVegan" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <!-- Ketogenic -->
+            <div id="carouselKetogenic" class="carousel slide col-12 col-md-6 col-lg-3 mb-5" data-bs-ride="carousel">
+              <a href=""> <h3 class="subtitle">Ketogenic</h3></a>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="carouselKetogenic1"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href=""><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="carouselKetogenic2"></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="#"><img src="assets/img/imagenCratina.jpg" class="d-block w-50 mx-auto" alt="carouselKetogenic3"></a>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselKetogenic" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselKetogenic" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </main>
 
     <footer class="text-center text-white footer">
       <div class="container p-4">
+        <!-- Social Media -->
         <section class="mb-4">
           <a
             class="btn btn-outline-light btn-floating m-1"
@@ -493,7 +511,8 @@
           ></a>
         </section>
 
-        <section class="newlester">
+        <!-- Newsletter -->
+        <section class="newsletter">
           <form action="">
             <div class="row d-flex justify-content-center">
               <div class="col-auto">
@@ -526,6 +545,7 @@
           </form>
         </section>
 
+        <!-- About Us -->
         <section class="mb-4">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
@@ -535,12 +555,25 @@
           </p>
         </section>
 
+        <!-- Helpful Links -->
         <section class="links">
           <div class="row">
+            
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+              <h4 class="text-uppercase">Links</h4>
+              <ul class="list-unstyled mb-4">
+                <li>
+                  <a href="#!" class="text-white">Link 1</a>
+                </li>
+                <li>
+                  <a href="#!" class="text-white">Link 2</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+              <h4 class="text-uppercase">Links</h4>
 
-              <ul class="list-unstyled mb-0">
+              <ul class="list-unstyled mb-4">
                 <li>
                   <a href="#!" class="text-white">Link 1</a>
                 </li>
@@ -551,9 +584,9 @@
             </div>
 
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+              <h4 class="text-uppercase">Links</h4>
 
-              <ul class="list-unstyled mb-0">
+              <ul class="list-unstyled mb-4">
                 <li>
                   <a href="#!" class="text-white">Link 1</a>
                 </li>
@@ -564,9 +597,9 @@
             </div>
 
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
+              <h4 class="text-uppercase">Links</h4>
 
-              <ul class="list-unstyled mb-0">
+              <ul class="list-unstyled mb-4">
                 <li>
                   <a href="#!" class="text-white">Link 1</a>
                 </li>
@@ -576,28 +609,17 @@
               </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-
-              <ul class="list-unstyled mb-0">
-                <li>
-                  <a href="#!" class="text-white">Link 1</a>
-                </li>
-                <li>
-                  <a href="#!" class="text-white">Link 2</a>
-                </li>
-              </ul>
-            </div>
           </div>
         </section>
       </div>
 
-      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      <div class="text-center p-3">
         © 2022 Copyright:
         <a class="text-white" href="https://locosporelgym.com/"
           >Nombre de pagina en proceso</a
         >
       </div>
+
     </footer>
 
     <!-- JavaScript Bundle with Popper -->
