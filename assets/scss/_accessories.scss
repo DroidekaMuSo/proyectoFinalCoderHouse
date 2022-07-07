@@ -1,0 +1,14 @@
+main {
+    .ad {
+        background-color: yellow;
+        border-radius: 15px;
+
+        .shipp {
+            color: red;
+            animation: "animate__heartBeat";
+            animation-iteration-count: infinite;
+            animation-duration: 15s;
+            animation-delay: 1s;
+        }
+    }
+}

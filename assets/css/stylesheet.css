@@ -1,7 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Livvic&family=Nunito:wght@300&family=Poppins:wght@400;500;700&family=Splash&display=swap");
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+nav .brand {
+  font-family: "Splash", cursive;
+  font-size: calc(1.325rem + 2vw);
+  color: #fe019a;
+  text-shadow: 1px 1px 4px #C2CE06;
+}
+nav #navbarNavDropdown {
+  margin-left: 50px;
+  font-size: calc(1.325rem + 1.1vw);
+}
+nav #navbarNavDropdown .navbar-nav .active {
+  color: #fe019a;
 }
 
 .title {
@@ -76,7 +91,7 @@ nav:visited {
 }
 
 .banner {
-  background-image: url(../img/bannerPagina.jpg);
+  background-image: url(../img/jpg/bannerPagina.jpg);
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -113,4 +128,16 @@ a:hover {
 
 .diet {
   box-shadow: 0px -1px 12px -5px #FE019A;
+}
+
+main .ad {
+  background-color: yellow;
+  border-radius: 15px;
+}
+main .ad .shipp {
+  color: red;
+  animation: "animate__heartBeat";
+  animation-iteration-count: infinite;
+  animation-duration: 15s;
+  animation-delay: 1s;
 }/*# sourceMappingURL=stylesheet.css.map */
