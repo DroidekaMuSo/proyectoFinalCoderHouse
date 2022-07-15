@@ -35,7 +35,8 @@ nav {
 .title {
     background-color: #fe019a;
     color: white;
-
+    text-align: center;
+    border-radius: 10px;
     &:hover {
         background-color: #e30088;
     }
@@ -44,6 +45,8 @@ nav {
 .subtitle {
     background-color: #000000;
     color: white;
+    text-align: center;
+    border-radius: 10px;
 
     &:hover {
         background-color: #292929;
@@ -52,4 +55,13 @@ nav {
 
 .footer {
     background-color: rgb(254, 1, 154);
+    a{
+        color: white;
+    }
+}
+
+.hr{
+    border: 1px solid;
+    color: rgb(254, 1, 154);
+    width: 80; 
 }

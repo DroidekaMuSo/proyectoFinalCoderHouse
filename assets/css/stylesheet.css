@@ -19,6 +19,8 @@ nav #navbarNavDropdown {
 .title {
   background-color: #fe019a;
   color: white;
+  text-align: center;
+  border-radius: 10px;
 }
 .title:hover {
   background-color: #e30088;
@@ -27,6 +29,8 @@ nav #navbarNavDropdown {
 .subtitle {
   background-color: #000000;
   color: white;
+  text-align: center;
+  border-radius: 10px;
 }
 .subtitle:hover {
   background-color: #292929;
@@ -34,6 +38,15 @@ nav #navbarNavDropdown {
 
 .footer {
   background-color: rgb(254, 1, 154);
+}
+.footer a {
+  color: white;
+}
+
+.hr {
+  border: 1px solid;
+  color: rgb(254, 1, 154);
+  width: 80;
 }
 
 nav {
@@ -72,6 +85,11 @@ nav:visited {
   color: white;
 }
 
+.footer .link a {
+  color: white;
+  text-decoration: none;
+}
+
 .title {
   background-color: #fe019a;
   color: white;
@@ -85,6 +103,11 @@ nav:visited {
 }
 .socialMedia div span {
   color: black;
+}
+
+.whyUs {
+  background-image: url(/assets/img/jpg/img4.jpg);
+  border-radius: 10px;
 }
 
 .banner {
@@ -120,12 +143,6 @@ a:hover {
 
 .fq h3 {
   text-align: center;
-}
-
-.hr {
-  border: 1px solid;
-  color: rgb(254, 1, 154);
-  width: 80;
 }
 
 .diet {

@@ -7,7 +7,6 @@
 
     h1 {
         font-family: map-get($brand, font);
-        @include size(calc(1.325rem + 2vw));
         color: black;
         text-shadow: map-get($brand, shadow );
     }
