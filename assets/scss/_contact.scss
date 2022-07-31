@@ -3,6 +3,14 @@
     color: white;
 }
 
+.banner-contact {
+    background-image: url(../img/jpg/banner-contact.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .socialMedia {
     font-size: x-large;
 
@@ -14,10 +22,15 @@
         span {
             color: black;
         }
+        i{
+            font-size: 2.5em;
+        }
     }
 }
 
-.whyUs{
-    background-image: url(/assets/img/jpg/img4.jpg);
-    border-radius: 10px;
+.zoom{
+    &:hover{
+        transform: scale(1.2);
+    }
 }
+

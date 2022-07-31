@@ -11,7 +11,7 @@
 
 $brand:(
     font:'Splash',
-    size: calc(1.325rem + 2vw),
+    size: 2em,
     color: #fe019a,
     shadow: 1px 1px 4px #C2CE06,
 );
@@ -29,6 +29,12 @@ nav {
         margin-left: 50px;
         font-size: calc(1.325rem + 1.1vw);
 
+    }
+
+    .navbar-nav{
+        a{
+            font-size: 1.5em;
+        }
     }
 }
 
@@ -64,4 +70,44 @@ nav {
     border: 1px solid;
     color: rgb(254, 1, 154);
     width: 80; 
+}
+
+
+
+.btn-dark {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    z-index: 0;
+    background: #fff;
+    overflow: hidden;
+    border: 2px solid #ff0a78;
+    color: #ff0a78;
+
+    &:hover{
+        color: #fff;
+    }
+
+    &:after{
+        width: 100%;
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        z-index: -1;
+        transition: all 0.3s ease;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 100%;
+        background: #ff0a78;
+    }
 }

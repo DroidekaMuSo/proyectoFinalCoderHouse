@@ -1,23 +1,9 @@
-.banner {
-    background-image: url(../img/jpg/bannerPagina.jpg);
+.banner-routine {
+    background-image: url(../img/jpg/banner-routine.jpg);
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    h1 {
-        font-family: map-get($brand, font);
-        color: black;
-        text-shadow: map-get($brand, shadow );
-    }
-
-    h2 {
-        color: white;
-        font-family: map-get($brand, font);
-        font-size: map-get($brand, size );
-        color: black;
-        text-shadow: map-get($brand, shadow );
-    }
 }
 
 a {

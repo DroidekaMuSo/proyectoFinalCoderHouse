@@ -29,49 +29,36 @@
     <title>Contact us for additional information</title>
   </head>
   <body>
-    <nav 
-    data-aos="fade-right"
-    data-aos-offset="300"
-    data-aos-easing="ease-in-sine"
-    class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid ">
-        <a class="navbar-brand brand" href="index.html"> Unleash the beast</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand brand" href="/index.html">Unleash the beast</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse text-center" id="navbarNavDropdown">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="/index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="routine.html">Routines</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="diets.html">Diets</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="accessories.html">Accessories</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="contact.html">Contact</a>
-            </li>
-            </li>
-          </ul>
+
+        <div class="collapse navbar-collapse d-lg-flex justify-content-lg-end" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+            <a class="nav-link" href="/pages/routine.html">Routines</a>
+            <a class="nav-link" href="/pages/diets.html">Diets</a>
+            <a class="nav-link" href="/pages/accessories.html" >Accesories</a>
+            <a class="nav-link active" href="/pages/contact.html">Contact Us</a>
+          </div>
         </div>
+
       </div>
     </nav>
 
     <header>
-      <div class="container-fluid ">
-        <img src="../assets/img/jpg/bannerPagina.jpg" class="img-fluid rounded-4" alt="banner de la pagina">
+      <div class="container-fluid banner-contact">
       </div>
     </header>
 
     <div class="container-fluid d-flex flex-wrap">
 
       <!-- Form -->
-      <main class="col-12 col-md-8  p-3">
+      <main class="col-12 col-md-8 p-5">
         <section>
           <h2 class="text-center my-4 title">Contact us</h2>
           <div class="mb-3">
@@ -91,38 +78,49 @@
             <input type="email" class="form-control" id="email" placeholder="name@example.com">
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
+
           <div class="btn-group d-flex w-50 mx-auto" role="group" aria-label="Basic checkbox toggle button group">
-            <input type="checkbox" class="btn-check" id="gender" value="m" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btncheck1">Man</label>        
-            <input type="checkbox" class="btn-check" id="gender" value="w" autocomplete="off">
-            <label class="btn btn-outline-primary" for="btncheck2">Woman</label>
+
+            <input type="checkbox" class="btn-check" id="m" value="m" name="man" autocomplete="off">
+            <label class="btn btn-outline-primary" for="m">Man</label>  
+
+            <input type="checkbox" class="btn-check" id="w" value="w" name="woman" autocomplete="off">
+            <label class="btn btn-outline-primary" for="w">Woman</label>
+
           </div>
-          <div class="mb-3">
+
+          <div class="mb-3 w-75 mx-auto">
             <input type="submit" class="form-control mt-3 btn btn-outline-success" id="submit">
           </div>
+
         </section>
       </main>
 
       <!-- Social Media -->
-      <section class="container-fluid p-3 col-12 col-md-4">
+      <section class="container-fluid p-5 col-12 col-md-4 ">
         <h2 class="text-center my-4 title">Follow Us</h2>
         <div class="container-fluid d-flex flex-column p-3 socialMedia" data-aos="fade-up">
-          <div class="container-fluid">
+
+          <div class="container-fluid mb-4">
             <a class="text-decoration-none" target="_blank" href="https://www.facebook.com/diego.munoz.79677471"><i class="m-2 fab fa-facebook"></i> <span>Diego Munoz</span></a>
           </div>
-          <div class="container-fluid">
+
+          <div class="container-fluid my-4">
             <a class="text-decoration-none" target="_blank" href="https://www.instagram.com/diego.mz_s/"><i class="m-2 fab fa-instagram"></i> <span >diego.mz_s</span></a>
           </div>
-          <div class="container-fluid">
+
+          <div class="container-fluid my-4">
             <a class="text-decoration-none" target="_blank" href="https://www.linkedin.com/in/diegomuso/"><i class="m-2 fab fa-linkedin"></i> <span>Diegomuso</span></a>
           </div>
-          <div class="container-fluid">
+
+          <div class="container-fluid my-4">
             <a class="text-decoration-none" target="_blank" href="https://github.com/DroidekaMuSo"><i class="m-2 fab fa-github"></i> <span>DroidekaMuSo</span></a>
           </div>
-          <div class="container-fluid ">
+
+          <div class="container-fluid my-4">
             <a href="https://wa.me/5673849712" target="_blank" class="text-decoration-none"><i class="m-2 fab fa-whatsapp"></i> <span>5673849712</span></a>
           </div>
         </div>
@@ -133,47 +131,66 @@
       <!-- Why Us -->
       <section class="container-fluid my-3">
         
-        <h2 class="title container-fluid text-center">Why Us?</h2>
+        <h2 class="title container-fluid text-center w-75">Why Us?</h2>
 
-        <div class="whyUs d-flex flex-wrap flex-md-wrap justify-content-center align-items-center container-fluid">
+        <div class="whyUs container-fluid row d-flex justify-content-center align-items-stretch">
           
-          <article class="m-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;"> 
+          <article class=" col-11 col-md-5 col-lg-2 m-3 p-3 zoom">
+            <div> 
               <div class="card-body">
-                <h3 class="subtitle text-center">Competitive Price</h3>
-                <p><i>Unleash the Beast</i> fitness equipment can compete and replace the global top brands with a more reasonable prices</p>
+                <h3 class="subtitle text-center p-3">Competitive Price</h3>
+                <div class="my-4">
+                  <p><i>Unleash the Beast</i> fitness equipment can compete and replace the global top brands with a more reasonable prices</p>
+                </div>
               </div>
             </div>
           </article>
   
-          <article class="m-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;"> 
+          <article class="col-11 col-md-5 col-lg-2 m-3 p-3 zoom">
+            <div> 
               <div class="card-body">
-                <h3 class="subtitle text-center">Better User Experience</h3>
-                <p><i>Unleash the Beast</i> fitness equipment is well-designed, which can bring your clients a good experience</p>
+                <h3 class="subtitle text-center p-3">Better User Experience</h3>
+
+                <div class="my-4">
+                  <p><i>Unleash the Beast</i> fitness equipment is well-designed, which can bring your clients a good experience</p>
+                </div>
+
               </div>
             </div>
           </article>
   
-          <article class="m-3 d-flex justify-content-center">
-            <div class="card" style="width: 18rem;"> 
+          <article class="col-11 col-md-5 col-lg-2 m-3 p-3 zoom">
+            <div> 
               <div class="card-body">
-                <h3 class="subtitle text-center">OEM & ODM & Customized</h3>
-                <p>Our products can be customized according to customer demand, also accpt OEM/ODM. <i>Unleash the Beast</i> has over 10 years manufacturing experience</p>
+
+                <h3 class="subtitle text-center p-3">OEM & ODM & Customized</h3>
+
+                <div class="my-4">
+                  <p>Our products can be customized according to customer demand, also accpt OEM/ODM. <i>Unleash the Beast</i> has over 10 years manufacturing experience</p>
+                </div>
+
               </div>
             </div>
           </article>
   
-          <article class="m-3 d-flex justify-content-center ">
-            <div class="card" style="width: 18rem;"> 
+          <article class="m-3 p-3 col-11 col-md-5 col-lg-2 zoom">
+            <div> 
               <div class="card-body">
-                <h3 class="subtitle text-center">Most Innovate Designers</h3>
-                <p><i>Unleash the Beast</i> has the most innovate designers in this industry to launch new designs that are unique in the market. <i>Unleash the Beast</i> senses the trend of the industry and you </p>
+
+                <h3 class="subtitle text-center p-3">Most Innovate Designers</h3>
+
+                <div class="my-4">
+                  <p><i>Unleash the Beast</i> has the most innovate designers in this industry to launch new designs that are unique in the market. <i>Unleash the Beast</i> senses the trend of the industry and you </p>
+                </div>
+
               </div>
             </div>
           </article>
+
         </div>
+
       </section>
+
     </div>
     <!-- End Main -->
 
@@ -218,7 +235,7 @@
         </section>
 
         <!-- Newsletter -->
-        <section class="newsletter">
+        <section class="newsletter my-5">
           <form action="">
             <div class="row d-flex justify-content-center">
               <div class="col-auto">
@@ -252,7 +269,7 @@
         </section>
 
         <!-- About Us -->
-        <section class="mb-4">
+        <section>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
             distinctio earum repellat quaerat voluptatibus placeat nam, commodi
@@ -262,23 +279,23 @@
         </section>
 
         <!-- Helpful Links -->
-        <section class="links">
+        <section class="links my-5">
           <div class="row">
             
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <a href="/index.html"><h4 class="text-uppercase">Home</h4></a>
+              <a href="pages/routine.html"><h4 class="text-uppercase">Routines</h4></a>
             </div>
 
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <a href="diets.html"><h4 class="text-uppercase">Diets</h4></a>
+              <a href="pages/diets.html"><h4 class="text-uppercase">Diets</h4></a>
             </div>
 
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <a href="routine.html"><h4 class="text-uppercase">Routines</h4></a>
+              <a href="pages/accessories.html"><h4 class="text-uppercase">Accessories</h4></a>
             </div>
 
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <a href="accessories.html"><h4 class="text-uppercase">Accessories</h4></a>
+              <a href="pages/contact.html"><h4 class="text-uppercase">Contact Us</h4></a>
             </div>
 
           </div>
@@ -288,7 +305,7 @@
       <div class="text-center p-3">
         © 2022 Copyright:
         <a class="text-white" href="https://locosporelgym.com/"
-          >Unleash the beast</a
+          >Nombre de pagina en proceso</a
         >
       </div>
 
