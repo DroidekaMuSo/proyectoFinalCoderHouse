@@ -183,7 +183,7 @@ a:hover {
 }
 
 .banner-diet {
-  background-image: url(../img/jpg/banner-diet.jpg);
+  background-image: url(/assets/img/jpg/banner-diets.jpg);
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
